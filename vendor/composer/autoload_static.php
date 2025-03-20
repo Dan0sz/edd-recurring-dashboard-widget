@@ -9,12 +9,12 @@ class ComposerStaticInit551744a2ed19e483ee73e4ab97135f96
     public static $prefixLengthsPsr4 = array (
         'D' => 
         array (
-            'Daan\\EddRecurringDashboardWidget\\' => 33,
+            'Daan\\EDD\\Recurring\\' => 19,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Daan\\EddRecurringDashboardWidget\\' => 
+        'Daan\\EDD\\Recurring\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

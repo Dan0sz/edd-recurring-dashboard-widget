@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Daan\\EddRecurringDashboardWidget\\' => array($baseDir . '/src'),
+    'Daan\\EDD\\Recurring\\' => array($baseDir . '/src'),
 );
