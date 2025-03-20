@@ -1,0 +1,17 @@
+{
+    "name": "daan/edd-recurring-dashboard-widget",
+    "description": "Adds more detailed about your recurring income to EDD's dashboard widget.",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Daan\\EDD\\Recurring\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dan0sz",
+            "email": "18595395+Dan0sz@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
