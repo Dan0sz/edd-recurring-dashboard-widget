@@ -2,6 +2,7 @@
     "name": "daan/edd-recurring-dashboard-widget",
     "description": "Adds more detailed about your recurring income to EDD's dashboard widget.",
     "type": "wordpress-plugin",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Daan\\EDD\\Recurring\\": "src/"
