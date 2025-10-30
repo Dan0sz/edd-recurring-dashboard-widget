@@ -23,6 +23,20 @@ class Widget {
 	 * Build class.
 	 */
 	public function __construct() {
+		$this->init();
+	}
+
+	/**
+	 * Action & Filter hooks.
+	 *
+	 * @return void
+	 */
+	private function init() {
+		add_action( 'admin_init', [ $this, 'set_timespans' ] );
+		add_action( 'edd_sales_summary_widget_after_stats', [ $this, 'add_stats' ], 11 );
+	}
+
+	public function set_timespans() {
 		$this->timespans = [
 			__( 'Tomorrow', $this->text_domain ),
 			__( 'This Week', $this->text_domain ),
@@ -34,17 +48,6 @@ class Widget {
 			__( 'This Year', $this->text_domain ),
 			__( 'Next Year', $this->text_domain ),
 		];
-
-		$this->init();
-	}
-
-	/**
-	 * Action & Filter hooks.
-	 *
-	 * @return void
-	 */
-	private function init() {
-		add_action( 'edd_sales_summary_widget_after_stats', [ $this, 'add_stats' ], 11 );
 	}
 
 	/**
