@@ -36,6 +36,9 @@ class Widget {
 		add_action( 'edd_sales_summary_widget_after_stats', [ $this, 'add_stats' ], 11 );
 	}
 
+    /**
+     * Set the timespans as translatable strings.
+     */
 	public function set_timespans() {
 		$this->timespans = [
 			__( 'Tomorrow', $this->text_domain ),
