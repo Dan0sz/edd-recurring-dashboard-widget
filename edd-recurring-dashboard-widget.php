@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Easy Digital Downloads - Recurring Dashboard Widget
  * Description: Adds more useful information about your recurring income to EDD's dashboard widget.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Daan from Daan.dev
  * Author URI: https://daan.dev
  * GitHub Plugin URI: Dan0sz/edd-recurring-dashboard-widget
